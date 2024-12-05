@@ -5,3 +5,41 @@ Paleta de cores:
 #2FA866
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-image: linear-gradient(to top, #1a5c38, #84e1ad);
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+#Títulodoblog {
+  color: white;
+  text-align: center;
+}
+
+#Subtítulodoblog {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-self: center;
+}
+
+.texto-menu {
+  color: white;
+}
