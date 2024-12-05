@@ -6,11 +6,45 @@ Paleta de cores:
 
 */
 
+@font-face {
+  font-family: 'idroid';
+  src: url('idroid.otf') format('opentype');
+}
+
+@media (max-width: 720px) {
+  #dan-droids {
+    display: none;
+  }
+  #irina-blok {
+    display: none;
+  }
+  #bugdroid {
+    width: 150px;
+  }
+  menu {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 720px) {
+  #dan-droids-pq {
+    display: none;
+  }
+  #irina-blok-pq {
+    display: none;
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #84e1ad;
 }
 
 header {
@@ -19,7 +53,9 @@ header {
   gap: 20px;
   background-image: linear-gradient(to top, #1a5c38, #84e1ad);
   padding-top: 20px;
+  padding-inline: 40px;
   padding-bottom: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.349);
 }
 
 #Títulodoblog {
@@ -40,6 +76,57 @@ menu {
   align-self: center;
 }
 
-.texto-menu {
+menu > p {
   color: white;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-inline: 80px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.37);
+}
+
+main > h1 {
+font-family: 'idroid';
+font-size: 30px;
+color: #1a5c38;
+}
+
+main > h2 {
+  font-family: 'idroid';
+  color: #1a5c38;
+  background-color: #84e1ac50;
+  padding-left: 10px;
+}
+
+main > p {
+  text-indent: 20px;
+}
+
+img {
+  margin: auto;
+}
+
+#dan-droids {
+  width: 500px;
+}
+
+#irina-blok {
+  width: 500px;
+}
+
+#dan-droids-pq {
+  width: 150px;
+}
+
+#irina-blok-pq {
+  width: 150px;
+}
+
+
+
+
