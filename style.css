@@ -51,7 +51,7 @@ header {
   flex-direction: column;
   gap: 20px;
   background-image: linear-gradient(to top, #1a5c38, #84e1ad);
-  padding-top: 20px;
+  padding-top: 40px;
   padding-inline: 40px;
   padding-bottom: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.349);
